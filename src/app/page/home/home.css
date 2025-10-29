@@ -1,0 +1,51 @@
+/* === Carrusel === */
+.carousel-inner img {
+  height: 80vh;              /* ajusta el alto del carrusel */
+  object-fit: cover;         /* recorta sin deformar */
+}
+
+/* === Video === */
+.video-container {
+  position: relative;
+  height: 60vh;              /* reduce espacio del video */
+  margin: 0;
+}
+
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150%;
+  object-fit: cover;
+}
+
+.video-overlay {
+  position: relative;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.45); /* oscurece un poco para contraste */
+  height: 100%;
+  width: 100%;
+}
+
+/* === Sobre Nosotros === */
+.container {
+  max-width: 1100px;
+}
+
+.container img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+/* === Espaciados === */
+section.bg-dark {
+  margin: 0;
+  padding: 0;
+}
+
+.container.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}

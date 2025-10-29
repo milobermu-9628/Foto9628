@@ -1,0 +1,8 @@
+footer {
+  line-height: 1.2; /* reduce la separación entre líneas */
+}
+
+footer p,
+footer h6 {
+  margin-bottom: 2px !important; /* compacta los textos */
+}

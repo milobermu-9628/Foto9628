@@ -1,0 +1,14 @@
+.sobre-nosotros-section img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.sobre-nosotros-section h3 {
+  margin-bottom: 15px;
+}
+
+.sobre-nosotros-section p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}

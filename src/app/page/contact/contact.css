@@ -1,0 +1,39 @@
+.form-top-img {
+  width: 100px;              /* tamaño del logo */
+  height: 100px;
+  border-radius: 50%;        /* forma circular */
+  border: 3px solid #f0ad4e; /* borde dorado */
+  background-color: transparent; /* fondo del logo */
+  object-fit: cover;
+  margin-top: -50px;         /* sobresale un poco del borde superior */
+}
+.form-card {
+  max-width: 1100px;
+  width: 95%;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 15px;
+  border: 1px solid #f0ad4e;
+  box-shadow: 0 0 15px rgba(240, 173, 78, o.2);
+}
+
+.contact-section {
+  background-color: rgba(26, 26, 26, 0.85);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(240, 173, 78, 0.2);
+  border: 1px solid #f0ad4e;
+}
+
+.map-container iframe {
+  border-radius: 10px;
+}
+
+.contact-section p {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.contact-section i {
+  margin-right: 8px;
+}
