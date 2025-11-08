@@ -1,95 +1,12 @@
-<!-- 💍 Sección de servicios -->
-<section class="servicios-section py-5 bg-dark">
-  <div class="container">
-    <h2 class="text-center text-warning fw-bold mb-5">Nuestros Servicios</h2>
+<h1>Nuestros Productos</h1>
 
-    <div class="row g-4">
-      <!-- 🕊️ Servicio 1: Bodas -->
-      <div class="col-md-4">
-        <div class="card servicio-card h-80 w-100 bg-dark">
-          <img src="img/img10.jpg" class="card-img-top" alt="Fotografía de bodas">
-          <div class="card-body">
-            <h5 class="card-title text-warning">Bodas</h5>
-            <p class="card-text text-light">
-              Capturamos los momentos más especiales de tu gran día con un estilo elegante y natural.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- 🎉 Servicio 2: 15 Años -->
-      <div class="col-md-4">
-        <div class="card servicio-card h-80 w-100 bg-dark">
-          <img src="img/img11.jpg" class="card-img-top" alt="Fotografía de 15 años">
-          <div class="card-body">
-            <h5 class="card-title text-warning">15 Años</h5>
-            <p class="card-text text-light">
-              Sesiones únicas para celebrar esta etapa inolvidable, llenas de color y emoción.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- 🏢 Servicio 3: Eventos Empresariales -->
-      <div class="col-md-4">
-        <div class="card servicio-card h-80 w-100 bg-dark">
-          <img src="img/img12.jpg" class="card-img-top" alt="Eventos empresariales">
-          <div class="card-body">
-            <h5 class="card-title text-warning">Eventos Empresariales</h5>
-            <p class="card-text text-light">
-              Cobertura profesional para tus eventos corporativos, lanzamientos y conferencias.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<section class="productos">
+  @for (producto of productList; track producto.id) {
+    <article class="producto">
+      <img [src]="producto.imagen" [alt]="producto.nombre">
+      <h2>{{ producto.nombre }}</h2>
+      <p>{{ producto.descripcion }}</p>
+      <span class="precio">{{ producto.precio | currency:'USD' }}</span>
+    </article>
+  }
 </section>
-
-
-<section class="servicios-section1 py-5 bg-dark">
-  <div class="container">
-
-    <div class="row g-4">
-      <!-- Fotografia Profesional -->
-      <div class="col-md-4">
-        <div class="card servicio-card h-80 w-100 bg-dark">
-          <img src="img/img13.jpg" class="card-img-top" alt="Fotografía Profesional">
-          <div class="card-body">
-            <h5 class="card-title text-warning">Fotografia Profesional</h5>
-            <p class="card-text text-light">
-              Capturamos los momentos más importantes.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- 🎉 Bautizos -->
-      <div class="col-md-4">
-        <div class="card servicio-card h-80 w-100 bg-dark">
-          <img src="img/img14.jpg" class="card-img-top" alt="Fotografía de 15 años">
-          <div class="card-body">
-            <h5 class="card-title text-warning">Bautizos</h5>
-            <p class="card-text text-light">
-              Sesiones únicas para celebrar ese gran paso.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- 🏢 Edición de videos -->
-      <div class="col-md-4">
-        <div class="card servicio-card h-80 w-100 bg-dark">
-          <img src="img/img15.jpg" class="card-img-top" alt="Eventos empresariales">
-          <div class="card-body">
-            <h5 class="card-title text-warning">Edición de Videos</h5>
-            <p class="card-text text-light">
-              Edición de videos de manera profesional
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
