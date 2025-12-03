@@ -9,6 +9,7 @@ import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angula
   templateUrl: './contact.html',
   styleUrls: ['./contact.css']
 })
+
 export class Contact {
 
   contactForm: FormGroup;
