@@ -7,7 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "e2e": "ng e2e",
-    "deploy": "ng build --base-href \"https://github.com/milobermu-9628/Foto9628.git/\" && npx angular-cli-ghpages --dir=dist/fotografia"
+    "deploy": "ng build --base-href \"https://github.com/milobermu-9628/Foto9628.git/\" && npx angular-cli-ghpages --dir=dist/Foto9628"
   },
   "prettier": {
     "printWidth": 100,
