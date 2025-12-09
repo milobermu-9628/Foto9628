@@ -47,8 +47,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "https://github.com/milobermu-9628/Foto9628/"
-
+              "baseHref": "/Foto9628/"
             },
             "development": {
               "optimization": false,
@@ -93,7 +92,7 @@
             ]
           }
         },
-        "deploy":{
+        "deploy": {
           "builder": "angular-cli-ghpages:deploy"
         }
       }

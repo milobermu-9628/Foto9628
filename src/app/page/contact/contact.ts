@@ -26,6 +26,9 @@ export class Contact {
   }
 
   onSubmit() {
+
+    this.contactForm.markAllAsTouched();
+
     if (this.contactForm.valid) {
       const datos = this.contactForm.value;
 

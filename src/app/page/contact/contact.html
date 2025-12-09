@@ -80,7 +80,7 @@
 
       <!-- Botones -->
       <div class="d-flex justify-content-between mt-4">
-        <button type="submit" class="btn btn-warning px-4" [disabled]="contactForm.invalid">
+        <button type="submit" class="btn btn-warning px-4" (click)="contactForm.invalid">
           Enviar
         </button>
 
